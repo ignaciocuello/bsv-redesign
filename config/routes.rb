@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/home', to: 'bsv#home'
+  root 'bsv#home'
 end
